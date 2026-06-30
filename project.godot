@@ -11,8 +11,17 @@ config_version=5
 [application]
 
 config/name="FishFood"
+run/main_scene="uid://ba8thcqt23q60"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+VmcPlugin="*uid://broa27dn7f0lm"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/GitGodot/plugin.cfg", "res://addons/godot_vmc_tracker/plugin.cfg")
 
 [physics]
 
